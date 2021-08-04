@@ -1,0 +1,29 @@
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+background-color: #5E454B;
+color: #F3F0D7;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+background-color: #D8B384;
+color: #161616;
+}
+/* unvisited link */
+a:link {
+text-decoration: none;
+color:#DDDDDD;
+}
+/* visited link */
+a:visited {
+text-decoration: none;
+color:#DDDDDD;
+}
+/* mouse over link */
+a:hover {
+text-decoration: none;
+color:#DDDDDD;
+}
+/* selected link */
+a:active {
+text-decoration: none;
+}

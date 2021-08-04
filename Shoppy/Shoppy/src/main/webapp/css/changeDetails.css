@@ -1,0 +1,67 @@
+.input-style {
+width: 60%;
+padding: 12px 20px;
+margin-left:20%;
+box-sizing: border-box;
+border: none;
+background-color:#558776 !important;
+color: #FFF5DA !important;
+font-size: 15px;
+outline:none;
+height:40px;
+}
+h3{
+margin-left:20%;text-align: left;margin-top:40px;padding-top:20px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: #FFF5DA !important;
+opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: #FFF5DA !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+color: #FFF5DA !important;
+}
+select {
+-webkit-appearance: none;
+border-radius:5px;
+}
+input[type=text], input[type=password]{
+text-align:left;
+}
+input{
+border-radius:5px;
+margin-botttom:20px;
+text-align:left;
+}
+input[type=text]:focus, textarea:focus,button:focus,select:focus{
+border-radius:5px;
+outline: 4px solid orange;
+background-color:rgb(224, 255, 219);     /* oranges! yey */  
+}
+.button {
+margin-top:20px;
+background-color:#865439 ;/* Green */
+border: none;
+color: white;
+padding: 12px 30px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+margin-left:20%;
+font-size: 16px;
+border-radius: 25px;
+}
+.button:hover {
+background-color: #D7B19D;
+color: black;
+}
+hr
+{
+width: 60%
+}
